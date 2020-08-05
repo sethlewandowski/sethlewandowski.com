@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145306611-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-145306611-1');
+</script>
+
+  <meta charset="utf-8">
+  <title>We Bought a Story | Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: Let me tell you a story. It’s a story about why we feel so empty.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css"/>
+  <link rel="prev" href="https://sethlewandowski.com/snowballs">
+  <link rel="next" href="https://sethlewandowski.com/system">
+
+  <meta property="og:title" content="We Bought a Story | Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/story">
+  <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
+  <meta property="og:description" content="Let me tell you a story. It’s a story about why we feel so empty.">
+</head>
+
+<body id="oneblog">
+
+<section id="masthead">
+<h1><a href="../" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+</section>
+
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="../words" rel="tag">Words</a>:</div>
+<h1>We Bought a Story</h1>
+<small>January 2, 2019</small>
+</header>
+
+<p>
+Let me tell you a story.<br>
+It’s a story about why we feel so empty.<br>
+Take a look around.<br>
+Who are we trying to please?<br>
+The fancy cars, the fashion labels, the latest trends.<br>
+When did we decide that other people’s opinions of us would dictate our own happiness? 
+</p><p>
+You see, it all started with a story.<br>
+A story that we’ve been told since before we can even remember.<br>
+The story goes like this.<br>
+<strong>We are born incomplete.</strong><br>
+And it’s our mission in life to try to complete ourselves.<br>
+To fill this hole.<br>
+It really is that simple.<br>
+Or so it seems.
+</p><p>
+So every year we spend billions of dollars trying to fill this hole.<br>
+Trying to complete ourselves.<br>
+Because that’s how it works.<br>
+And hey, everyone else is doing it.<br>
+Well spoiler alert: <strong>We can’t fill the hole.</strong><br>
+Trust me, I’ve tried.<br>
+So what if we stopped believing the story?<br>
+What if we stopped believing we were incomplete?
+</p><p>
+Well, for starters, we would probably stop buying things to fill the hole.<br>
+We would probably stop posting things on social media to fill the hole.<br>
+And we would probably stop eating and drinking things to fill the hole.<br>
+Because guess what?<br>
+<i>The hole doesn’t exist.</i><br>
+It never has.<br>
+It’s just something we chose and continue to choose to believe.
+</p><p>
+We choose to believe this story, but the more I think about it, the more I realize.<br>
+We don’t have to anymore.<br>
+</p><p>
+Do we?
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LqTeecU2cTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<footer>
+© 2019 <a href="https://sethlewandowski.com">Seth Lewandowski</a>.
+(
+  « <a href="snowballs" accesskey="p" rel="prev">previous</a>
+  ||
+  <a href="system" accesskey="n" rel="next">next</a> »
+)
+<h1>
+  Copy &amp; share:
+  <a href="https://sethlewandowski.com/blog/story">sethlewandowski.com/blog/story</a>
+</h1>
+</footer>
+</article>
+
+</div>
+</body>
+</html>

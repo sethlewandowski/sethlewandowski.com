@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Seth Lewandowski - Now</title>
+  <meta name="description" content="Seth Lewandowski: Entrepreneur, writer, learner.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <meta property="og:title" content="Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/">
+  <meta property="og:image" content="https://sethlewandowski.com/images/seth_lewandowski.jpg">
+  <meta property="og:description" content="What I'm doing now.">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <label for="toggle">
+        <div class="hamburger-button">
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+        </div>
+      </label>
+      <input type="checkbox" id="toggle"/>
+      <div class="menu">
+        <a href="about">About</a>
+        <a href="now">Now</a>
+        <a href="words">Words</a>
+        <a href="projects">Projects</a>
+      </div>
+    </nav>
+  </header>
+  <section id="masthead">
+    <h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+  </section>
+  <main>
+    <section>
+      <h2>Now</h2>
+        <h3>Living</h3>
+          <p>I am currently enjoying my home in <strong>Scottsdale, AZ</strong> 🌴. I moved here in January and LOVE IT.</p>
+        <h3>Building</h3>
+          <ul>
+            <li>Just finished setting up my first virtual private server (VPS) and moved all my websites over to it. Previously I had used shared hosting. And prior to that I was completely on Squarespace.</li>
+            <li>Going to set up my first database next. Tried to do this a while ago but realized I had to have a dedicated IP address and didn't have that with shared hosting on Bluehost. Going to use Postgresql. Wish me luck!</li>
+          </ul>
+        <h3>Paying the bills:</h3>
+          <ul>
+            <li>Helping the world of hospice as best I can - <a href="https://www.sonohs.com">SONO</a>.</li>
+            <li>Freelance web development.</li>
+          </ul>
+        <h3>Exercising</h3>
+          <section class="flex-container">
+            <img class="flex-item" src="images/mtb.jpg" alt="Me riding a mountain bike.">
+            <p class="flex-item">
+              <p>Well it's hot as hell here in PHX but when it's cool in the mornings I'm usually doing one of the following:</p>
+              <ul>
+                <li>Mountain Biking</li>
+                <li>Hiking</li>
+                <li>Skating</li>
+                <li>Swinging kettle bells in my garage</li>
+              </ul>
+            </p>
+          </section>
+    <section>
+      <hr>
+      <p>Updated: July 18th, 2020, from Scottsdale, AZ.</p>
+    </section>
+  </main>
+</body>
+</html>

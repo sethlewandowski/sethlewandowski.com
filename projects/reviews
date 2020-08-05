@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Seth Lewandowski</title>
+    <meta name="description" content="My First Mobile App">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <meta property="og:title" content="Seth Lewandowski">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sethlewandowski.com/projects/reviews">
+    <meta property="og:image" content="">
+        <figcaption id="img-caption">
+    <meta property="og:description" content="My First Mobile App">
+  </head>
+
+  <body>
+    <section id="masthead">
+      <h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+    </section>
+
+    <h2><a href="../projects">Back to My Projects</a></h2>
+
+    <content id="main">
+      <h2 id="title">My First Mobile App</h2>
+      <p>
+        <dt>1.20.2020</dt>
+        <dd>Today I started building my first app. I've been wanting to build an app that is centered around getting better feedback for some time now. Today I updated npm, watchman, react CLI, etc. I spent most of the day in the terminal and trying to figure out why I was having issues seeing a demo of my default app on my phone. This lead to me learning more about ports and wifi and networks.</dd>
+        <dt>1.25.2020</dt>
+        <dd>By all measures, you could say so far that my efforts in building a mobile app have been an epic failure. January and the first week of February are by far the busiest weeks of my year. I have a conference that I'm in charge of that takes place in Scottsdale, AZ every year during the first week of February and it's all hands on deck right now getting ready for that. That being said, I am following along on a youtube channel of a guy who's showing how to build a simple to-do app with react native. I don't know exactly how it's all going to shake out, but I know for a fact I can make the world of feedback so so much better. I have 2 websites to build for clients starting on February 10th and it's all out on development starting then. Stay tuned.</dd>
+        <dt>2.28.2020</dt>
+        <dd>Somehow, it's been over a month since the last time I tried to work on my review app. So, of course, it's a Friday at 2:30pm and I finally have time to get back into it and for the life of me, I can't even remember the terminal command to run this app. Turns out, you need to use the command line to change your working directory by typing in "cd" then the name of your directory. Once there, you type "sudo npm start". I have been wondering lately if there's a way for me to remove the need to type in sudo before most of my terminal commands. Seems repetitive and annoying but I'm sure I'll break the MacOS software somehow by removing that step.</dd>
+      </p>
+    </content>
+  </body>
+</html>

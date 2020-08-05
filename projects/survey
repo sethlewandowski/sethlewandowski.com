@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Survey Project</title>
+    <meta name="description" content="Survey Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <meta property="og:title" content="Seth Lewandowski">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sethlewandowski.com/projects/survey">
+    <meta property="og:image" content="">
+        <figcaption id="img-caption">
+    <meta property="og:description" content="Tribute to Derek Sivers">
+
+    <style type="text/css">
+      .form-style-5{
+        max-width: 500px;
+        padding: 10px 20px;
+        background: #f4f7f8;
+        margin: 10px ;
+        padding: 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .form-style-5 fieldset{
+        border: none;
+      }
+      .form-style-5 legend {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+      }
+      .form-style-5 label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      .form-style-5 input[type="text"],
+      .form-style-5 input[type="date"],
+      .form-style-5 input[type="datetime"],
+      .form-style-5 input[type="email"],
+      .form-style-5 input[type="number"],
+      .form-style-5 input[type="search"],
+      .form-style-5 input[type="time"],
+      .form-style-5 input[type="url"],
+      .form-style-5 textarea,
+      .form-style-5 select {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        background: rgba(255,255,255,.1);
+        border: none;
+        border-radius: 4px;
+        font-size: 15px;
+        margin: 0;
+        outline: 0;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box; 
+        background-color: #e8eeef;
+        color:#8a97a0;
+        -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        margin-bottom: 30px;
+      }
+      .form-style-5 input[type="text"]:focus,
+      .form-style-5 input[type="date"]:focus,
+      .form-style-5 input[type="datetime"]:focus,
+      .form-style-5 input[type="email"]:focus,
+      .form-style-5 input[type="number"]:focus,
+      .form-style-5 input[type="search"]:focus,
+      .form-style-5 input[type="time"]:focus,
+      .form-style-5 input[type="url"]:focus,
+      .form-style-5 textarea:focus,
+      .form-style-5 select:focus{
+        background: #d2d9dd;
+      }
+      .form-style-5 select{
+        -webkit-appearance: menulist-button;
+        height:35px;
+      }
+      .form-style-5 .number {
+        background: #990000;
+        color: #fff;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        font-size: 0.8em;
+        margin-right: 4px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+        border-radius: 15px 15px 15px 0px;
+      }
+
+      .form-style-5 input[type="submit"],
+      .form-style-5 input[type="button"],
+      button
+      {
+        position: relative;
+        display: block;
+        padding: 19px 39px 18px 39px;
+        color: #FFF;
+        margin: 0 auto;
+        background: #990000;
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        width: 100%;
+        border: 1px solid #16a085;
+        border-width: 1px 1px 3px;
+        margin-bottom: 10px;
+      }
+      .form-style-5 input[type="submit"]:hover,
+      .form-style-5 input[type="button"]:hover
+      {
+        background: #109177;
+      }
+      </style> 
+  </head>
+
+  <body>
+  <section id="masthead">
+    <h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+  </section>
+
+  <content id="main">
+    <h1 id="title">I'd love your feedback!</h1>
+    <div class="form-style-5">
+      <p id="description">This page is a humble request to share your feedback with me on what you'd like to see more of on my site.</p>
+      <form id="survey-form">
+        <fieldset>
+          <legend><span class="number">1</span>Subscriber Info</legend>
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" name="field1" id="name" placeholder="Your Name *" required>
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" name="field2" id="email" placeholder="Your Email *" required>
+            <label for="number" id="number-label">Number of Emails Desired Per Month</label>
+            <input type="number" name="field3" id="number" placeholder="Number of Emails Desired Per Month" min="1" max="30">
+        </fieldset>
+        <fieldset>
+          <label for="dropdown">Interests:</label>
+            <select id="dropdown">
+              <optgroup id="interests">
+                <option value="projects">Projects</option>
+                <option value="posts">Posts</option>
+                <option value="video">Videos</option>
+              </optgroup>
+            </select>
+        </fieldset>
+        <fieldset> 
+          <label for="radio">How often do you visit this site?</label>
+            <input type="radio" name="frequency" value="1x"> 1x per month<br>
+            <input type="radio" name="frequency" value="10x"> 10x per month<br>
+            <input type="radio" name="frequency" value="20x"> 20x per month<br>
+        </fieldset>
+        <fieldset>
+          <label for="moreof">What would you like to see more of?</label>
+            <div id="moreof">
+              <label><input type="checkbox" name="more" value="blogs"> Blogs</label>
+              <label><input type="checkbox" name="more" value="projects"> Projects</label>
+              <label><input type="checkbox" name="more" value="videos"> Videos</label>
+            </div>
+        </fieldset>
+        <fieldset>
+          <legend><span class="number">2</span> Additional comments?</legend>
+            <textarea name="field6" placeholder="Any additional comments?"></textarea>
+          </fieldset>
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+  </content>
+  </body>
+
+</html>

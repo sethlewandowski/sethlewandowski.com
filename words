@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: Entrepreneur, writer, learner.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <meta property="og:title" content="Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/">
+  <meta property="og:image" content="https://sethlewandowski.com/images/seth_lewandowski.jpg">
+  <meta property="og:description" content="Seth Lewandowski: Entrepreneur, writer, learner.">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <label for="toggle">
+        <div class="hamburger-button">
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+          <div class="hamburger-bar"></div>
+        </div>
+      </label>
+      <input type="checkbox" id="toggle"/>
+      <div class="menu">
+        <a href="about">About</a>
+        <a href="now">Now</a>
+        <a href="words">Words</a>
+        <a href="projects">Projects</a>
+      </div>
+    </nav>
+  </header>
+  <section id="masthead">
+    <h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+  </section>
+  <main>
+  <h1>Words</h1>
+    <ul>
+      <li><a href="blog/5">5 minutes</a></li>
+      <li><a href="blog/28">The 28 Things I've Learned the Hard Way</a></li>
+      <li><a href="blog/simplify">Simplify</a></li>
+      <li><a href="blog/process">Process</a></li>
+      <li><a href="blog/grey">Grey</a></li>
+      <li><a href="blog/cage">Cage</a></li>
+      <li><a href="blog/irrefutable">Irrefutable</a></li>
+      <li><a href="blog/focus">Focus</a></li>
+      <li><a href="blog/toolbox">An Empty Tool Box</a></li>
+      <li><a href="blog/monumental">Coping with the Monumental Days</a></li>
+      <li><a href="blog/1">1 Degree</a></li>
+      <li><a href="blog/aayor">Accept At Your Own Risk</a></li>
+      <li><a href="blog/beat">Can I Get a Beat?</a></li>
+      <li><a href="blog/bert">In Loving Memory</a></li>
+      <li><a href="blog/better">Be Better</a></li>
+      <li><a href="blog/blah">Blah, Blah, Blah</a></li>
+      <li><a href="blog/blank">Blank Page</a></li>
+      <li><a href="blog/build">Entrepreneurs Don't Build Businesses</a></li>
+      <li><a href="blog/crazy">What's the Craziest Thing You've Ever Done?</a></li>
+      <li><a href="blog/creator">To the Creator in You</a></li>
+      <li><a href="blog/dating">The Case for Dating Your Business Ideas</a></li>
+      <li><a href="blog/different">Be Different</a></li>
+      <li><a href="blog/do">What Are You Going to Do?</a></li>
+      <li><a href="blog/enough">It's Never Enough</a></li>  
+      <li><a href="blog/fewer">Fewer, Higher Quality</a></li>
+      <li><a href="blog/first">My First Post</a></li>
+      <li><a href="blog/forever">Nothing Lasts Forever</a></li>
+      <li><a href="blog/ideas">Managing All the Ideas</a></li>  
+      <li><a href="blog/juggle">Some Entrepreneurs Were Born to Juggle</a></li>
+      <li><a href="blog/made">Is He Self-made?</a></li>
+      <li><a href="blog/mix">The Best Mix</a></li>
+      <li><a href="blog/more">The More The Merrier</a></li>
+      <li><a href="blog/offer">The Job Offer I'll Never Forget</a></li>
+      <li><a href="blog/overheard">Overheard Conversation</a></li>
+      <li><a href="blog/own">You Don't Own Your Business</a></li>
+      <li><a href="blog/people">We Are In The Business Of People</a></li>
+      <li><a href="blog/pill">The Red Pill</a></li>  
+      <li><a href="blog/ppp">Pen, Paper, Prose.</a></li>
+      <li><a href="blog/raw">RAW Artists</a></li>
+      <li><a href="blog/reject">Reject the Default.</a></li>
+      <li><a href="blog/resolutions">The Foolproof Guide to New Year's Resolutions</a></li>
+      <li><a href="blog/see">I Can't Help But See</a></li>
+      <li><a href="blog/snowballs">You and Your Snowballs</a></li>
+      <li><a href="blog/story">We Bought a Story</a></li>
+      <li><a href="blog/system">A New System</a></li>
+      <li><a href="blog/talking">I'm Talking to You</a></li>  
+      <li><a href="blog/telling">Everyone's Telling You</a></li>
+      <li><a href="blog/unsaid">Things Left Unsaid</a></li>
+      <li><a href="blog/wizard">You're a Wizard, Harry.</a></li> 
+      <li><a href="blog/word">I Hate the Word "Entrepreneur"</a></li>  
+      <li><a href="blog/yourself">Be Yourself</a></li>
+    </ul>
+  </main>
+</body>
+</html>

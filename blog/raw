@@ -1,0 +1,91 @@
+<html lang="en" dir="ltr">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145306611-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-145306611-1');
+</script>
+
+  <meta charset="utf-8">
+  <title>RAW Artists | Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: Step through. Lock eyes. Hold gaze. Breathe in.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css"/>
+  <link rel="prev" href="https://sethlewandowski.com/ppp">
+  <link rel="next" href="https://sethlewandowski.com/reject">
+
+  <meta property="og:title" content="RAW Artists | Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/raw">
+  <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
+  <meta property="og:description" content="Step through. Lock eyes. Hold gaze. Breathe in.">
+</head>
+
+<body id="oneblog">
+
+<section id="masthead">
+<h1><a href="../" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+</section>
+
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="../words" rel="tag">Words</a>:</div>
+<h1>RAW Artists</h1>
+<small>October 12, 2017</small>
+</header>
+
+<p>
+Step through.<br>
+Lock eyes.<br>
+Hold gaze.<br>
+Breathe in.<br>
+Another step.<br>
+Another second.<br>
+Pass by.<br>
+Move through.<br>
+New exhibit.<br>
+New faces.<br>
+Different style.<br>
+Same mazes.<br>
+True passion.<br>
+Real people.<br>
+RAW Artists.<br>
+Steady beat.<br>
+Raised glasses.<br>
+Another step.<br>
+Someone passes.<br>
+Guards down.<br>
+Gloves off.<br>
+True expression.<br>
+Touches soft.<br>
+Check watch.<br>
+Another drink.<br>
+New friends.<br>
+Hands link.<br>
+Inspired again.<br>
+Breath in.<br>
+Chasing dreams.<br>
+Let it begin.
+</p>
+<footer>
+© 2019 <a href="https://sethlewandowski.com">Seth Lewandowski</a>.
+(
+  « <a href="ppp" accesskey="p" rel="prev">previous</a>
+  ||
+  <a href="reject" accesskey="n" rel="next">next</a> »
+)
+<h1>
+  Copy &amp; share:
+  <a href="https://sethlewandowski.com/blog/raw">sethlewandowski.com/blog/raw</a>
+</h1>
+</footer>
+</article>
+
+</div>
+</body>
+</html>

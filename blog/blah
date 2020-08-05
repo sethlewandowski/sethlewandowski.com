@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+  <meta charset="utf-8">
+  <title>Blah Blah Blah | Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: Blah, blah, blah. It’s just words on a page.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css"/>
+  <link rel="prev" href="https://sethlewandowski.com/better">
+  <link rel="next" href="https://sethlewandowski.com/blank">
+
+  <meta property="og:title" content="Blah Blah Blah | Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/blah">
+  <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
+  <meta property="og:description" content="Blah, blah, blah. It’s just words on a page.">
+</head>
+
+<body id="oneblog">
+
+<section id="masthead">
+<h1><a href="../" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+</section>
+
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="../words" rel="tag">Words</a>:</div>
+<h1>Blah, Blah, Blah</h1>
+<small>December 2, 2018</small>
+</header>
+
+<p>
+Blah, blah, blah.<br>
+It’s just words on a page.<br>
+Who reads this stuff anyway?<br>
+You’ll never make the stage.
+</p><p>
+The compulsion to create.<br>
+The desire to dream.<br>
+We all have the itch inside.<br>
+The problem lies in the small fraction of those who abide.
+</p><p>
+Why is art so taboo?<br>
+Reserved only for the poor and the few.
+</p><p>
+We all have a story to tell.<br>
+And for some, you’d probably prefer to yell.<br>
+When will you have the courage to try?<br>
+Not like anyone is asking you to jump off a cliff and fly.
+</p><p>
+It’s those who are closest to us that can hold us back the most.<br>
+They can keep you from ever having the courage to write that first post.<br>
+But let me challenge you and say, “So what?”<br>
+If you have the itch, stand up and follow your gut.<br>
+Taking action is the only thing that's gonna get you out of that rut.
+</p><p>
+“Oh, here we go, another one of these hype-poems from a closet creator.”<br>
+To that, I say, “My names on the site and the comment box is open, ya hater.”
+</p><p>
+I can promise you that this world would be better.<br>
+And “Tomorrow” really is just another word for “Never.”<br>
+What can you create today?<br>
+Can you put a pen to paper?<br>
+It’s funny how quickly your world can change when you discover that you,<br>
+Yes, I said you, might just be born to be a shaper.
+</p>
+
+<footer>
+© 2019 <a href="https://sethlewandowski.com">Seth Lewandowski</a>.
+(
+  « <a href="better" accesskey="p" rel="prev">previous</a>
+  ||
+  <a href="blank" accesskey="n" rel="next">next</a> »
+)
+<h1>
+  Copy &amp; share:
+  <a href="https://sethlewandowski.com/blog/blah">sethlewandowski.com/blog/blah</a>
+</h1>
+</footer>
+</article>
+
+</div>
+</body>
+</html>

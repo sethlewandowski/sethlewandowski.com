@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: Entrepreneur, writer, learner.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css" />
+  <meta property="og:title" content="Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/">
+  <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
+  <meta property="og:description" content="Seth Lewandowski: Entrepreneur, writer, learner.">
+</head>
+
+<body id="words">
+<section id="masthead">
+<h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+</section>
+
+<div id="content">
+
+<h1>My First Script</h1>
+
+<script>
+  //First we initalize a variable with the user name input.  
+  const visitorName = prompt("Hi, what is your name?");
+  
+  //Second we call the welcomeMessage function and pass in the visitorName variable as an argument. 
+  welcomeMessage(visitorName);
+
+  //This function is hoisted up to be used during the welcomeMessage function. 
+  function welcomeMessage (visitorName) {
+    document.write('Hello ' + visitorName + '!');
+  }
+</script>
+
+<p>
+  Yep, that's it. ^^^ One single line of text.<br>
+  I know it's lame people. But it's better than null. 
+</p>
+
+<img src="https://media1.giphy.com/media/wrBURfbZmqqXu/giphy.gif?cid=790b761106669f57d2a2e831474f8e7a532caacbc800347f&rid=giphy.gif"/>
+
+<h3>What happened exactly?</h3>
+<p>I'm glad you asked.<br>
+  Basically, I created a function that takes in a parameter "visitorName" that you (the visitor) provide me when the page loads.<br>
+  I get this "visitorName" by creating a variable called "visitorName" and setting it equal to a javascript built in function called "prompt".<br>
+  Once you provide your name in the prompt, I store that name in a variable called "visitorName".<br>
+  Next, I call the function I created first with the argument "visitorName" that you provided me.<br>
+  This function takes in the argument I provide it, and using the document.write() function, I print out "Hello + your name + !".<br>
+  It's that simple.
+</p><p>
+  Crazy how much goes into such a simple task.<br> 
+  I'm embarassed to say the entire thing took me over an hour.<br>
+  Either way, that's my first offical script in the books people.<br>
+  And it feels great to acutally DO something with all that knowledge rather than bang out drill after drill online.<br>
+  On to bigger and better things. 
+</p><h3>Here's the code:</h3>
+
+<p><xmp>
+<script>
+  //First we initalize a variable with the user name input.  
+  const visitorName = prompt("Hi, what is your name?");
+  
+  //Second we call the welcomeMessage function and pass in the visitorName variable as an argument. 
+  welcomeMessage(visitorName);
+
+  //This function is hoisted up to be used during the welcomeMessage function. 
+  function welcomeMessage (visitorName) {
+    document.write('Hello ' + visitorName + '!');
+  }
+</script>
+</xmp>
+</p>
+<p>Notice this is an example of hoisting - a concept where a function defined later in your code is able to be used by a function earlier in your code. </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    body {
+      min-width: 290px;
+      color: #4d4e53;
+      background-color: #ffffff;
+      font-family: "Open Sans", Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    xmp {
+      font-size: 12pt;
+    }
+
+    dt {
+      font-weight: bold;
+    }
+
+    #navbar {
+      position: fixed;
+      min-width: 290px;
+      top: 0px;
+      left: 0px;
+      width: 300px;
+      height: 100%;
+      border-right: solid;
+      border-color: rgba(0, 22, 22, 0.4);
+    }
+
+    header {
+      color: black;
+      margin: 10px;
+      text-align: center;
+      font-size: 1.8em;
+      font-weight: thin;
+    }
+
+    #main-doc header {
+      text-align: left;
+      margin: 0px;
+    }
+
+    #navbar ul {
+      height: 88%;
+      padding: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    #navbar li {
+      color: #4d4e53;
+      border-top: 1px solid;
+      list-style: none;
+      position: relative;
+      width: 100%;
+    }
+
+    #navbar a {
+      display: block;
+      padding: 10px 30px;
+      color: #4d4e53;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    #main-doc {
+      position: absolute;
+      margin-left: 310px;
+      padding: 20px;
+      margin-bottom: 110px;
+    }
+
+    .main-section {
+      margin-bottom: 60px;
+    }
+
+    section article {
+      color: #4d4e53;
+      margin: 15px;
+      font-size: 0.96em;
+    }
+
+    section li {
+      margin: 15px 0px 0px 20px;
+    }
+
+    ol li {
+      font-weight: bold;
+    }
+
+    code {
+      display: block;
+      text-align: left;
+      white-space: pre;
+      position: relative;
+      word-break: normal;
+      word-wrap: normal;
+      background-color: #f7f7f7;
+      line-height: 2px;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+
+    #internalexample {color:blue} 
+
+    @media only screen and (max-width: 815px) {
+      /* For mobile phones: */
+      #navbar ul {
+        border: 1px solid;
+        height: 207px;
+      }
+
+      #navbar {
+        background-color: white;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid;
+      }
+
+      #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 270px;
+      }
+    }
+
+    @media only screen and (max-width: 400px) {
+      #main-doc {
+        margin-left: -10px;
+      }
+
+      code {
+        margin-left: -20px;
+        width: 100%;
+        padding: 15px;
+        padding-left: 10px;
+        padding-right: 45px;
+        min-width: 233px;
+      }
+    }
+    </style>
+  </head>
+
+  
+  <nav id="navbar">
+    <header>Basic HTML & CSS</header>
+    <ul>
+      <li><a class="nav-link" href="#introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#html_vs._css">HTML vs. CSS</a></li>
+      <li><a class="nav-link" href="#html_basics">HTML Basics</a></li>
+      <li><a class="nav-link" href="#css_basics">CSS Basics</a></li>
+      <li><a class="nav-link" href="#html_basic_elements">HTML Basic Elements</a></li>
+      <li><a class="nav-link" href="#css_syntax">CSS Syntax</a></li>
+      <li><a class="nav-link" href="#where_to_go_from_here">Where to Go From Here</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <article>
+        <p>
+          This document is all about basic HTML & CSS. I will not be diving too deep into any of it. Rather, I will aim to teach some very basic concepts herein. 
+        </p> 
+      </article>
+    </section>
+
+    <section class="main-section" id="html_vs._css">
+      <header>HTML vs. CSS</header>
+      <article>
+        <p>
+          Whats the difference anyway? What do they all mean?
+        </p>
+        <ul>
+          <li>HTML 5</li>
+          <li>CSS</li>
+          <li>Markup language</li>
+          <li>Cascading Style Sheets</li>
+          <li>Style tags</li>
+        </ul>
+        <p>
+          It's enough to create confusion for anyone, admittedly.
+        </p>
+        <p>
+          So I'm going to make it very very simple. Break it down completely for you.
+        </p>
+        <h2>HTML vs CSS?</h2>
+        <p>HTML is CONTENT, while CSS is STYLE.</p>        
+        <h3>HTML</h3>
+        <p>HTML is the bones. It's the meat. It's the words. The numbers. The content. The actual information you are trying to get across. It's the engine.</p>
+        <h3>CSS</h3>
+        <p>CSS is simply the language you use to "style" the HTML in your document. It's the paint. The trim. The body. The leather seats. The stickers on the window. It's your girlfriends makeup and outfit.</p>
+
+      </article>
+    </section>
+
+    <section class="main-section" id="html_basics">
+      <header>HTML Basics</header>
+      <article>
+        <p>An HTML document is literally text on a page that has an extension of ".html" and is opened with a web browser.</p>
+        <p>For example, copy this code, save it to any text editor you have (If mac, use TextEdit. If windows, use WordPad.) with the extension of ".html".</p>
+        <code>
+            <xmp><!DOCTYPE html></xmp>
+            <xmp><html></xmp>
+            <xmp><h1>You're now a web developer</h1></xmp>
+            <xmp></html></xmp>
+        </code>
+        <p>Now right click that file and select "open with" and choose any web browser and you'll see what I mean.</p>
+        <p>And guess what? Now you have an environment to play around with code and see how it marks up on a web browser!</p>
+      </article>
+    </section>
+
+    <section class="main-section" id="css_basics">
+      <header>CSS Basics</header>
+      <article>
+        <p>Before I dive into syntax and what not, probably more helpful is explaining how exactly CSS and HTML co-exist.</p>
+        <p>This is what gave me the most confusion starting out. CSS can be found in one of 3 places.</p>
+        <ol>
+          <li>Inline - literally within your html element tags</li>
+            <p>The CSS here is literally within the html element tags and will only impact text within those h1 tags.</p>
+            <code>
+              <xmp><h1 style="color:purple;">This is a purple heading.</h1></xmp>
+            </code>
+            <h1 style="color:purple;">This is a purple heading.</h1>
+          <li>Internal - within your html document</li>
+            <p>Notice how the css is separated within it's own "style" tags (which is an HTML element).</p>
+            <code>
+              <xmp><style></xmp>
+              <xmp>#internalexample {color:blue}</xmp>
+              <xmp></style></xmp>
+              <xmp><h1 id="internalexample">This is a blue heading.</h1></xmp>
+            </code>
+            <h1 id="internalexample">This is a blue heading.</h1>
+          <li>External - one line that links to a separate document holding all your CSS (recommended method).</li>
+            <p>This method is very similar to the previous (Internal) with the small difference that you "link" to the stylesheet instead of having all your css within the same document as your HTML.</p>
+            <code>
+              <xmp><link rel="stylesheet" type="text/css" href="thisiswhereyoufindmystylesheet.css"></xmp>
+            </code>
+            <p>Quick note - you will want to put this external stylesheet link in your head section of your HTML document.</p>
+        </ol>
+      </article>
+    </section>
+
+    <section class="main-section" id="html_basic_elements">
+      <header>HTML Basic Elements</header>
+      <article>
+        <p>You can think of an HTML document as a collection of text, images, and html tags.</p>
+        <p>I take it you already know what text and images are, so this section is all about html tags.</p>
+        <h2>Common HTML Tags</h2>
+          <dl>
+            <dt><xmp><h1></h1>-<h6></h6></xmp></dt>
+              <dd>These tags are for headings and decend in size from 1 to 6.</dd>
+            <dt><xmp><p></p></xmp></dt>
+              <dd>The "p" tag is for paragraphs or any sections of text.</dd>
+            <dt><xmp><img></xmp></dt>
+              <dd>The "img" tag is for images. You'll notice that I only provided one "img" tag. This is because img is a self closing tag and does not need a separate tag to close the element.</dd>
+            <dt><xmp><div></div></xmp></dt>
+              <dd>The "div" tag is for divisions of your document and used to section things off.</dd>
+            <dt><xmp><style></style></xmp></dt>
+              <dd>The style tag is used for letting the browser know that all contents contained within are for styling your document.</dd>
+            <dt><xmp><head></head></xmp></dt>
+              <dd>The cool thing about the head tag is everything within is used for document governance and doesn't appear in your browser window. Things found in the head tag are site title, favicon, metadata, external stylesheet link, etc.</dd>
+          </dl>
+      </article>
+    </section>
+
+    <section class="main-section" id="css_syntax"> 
+      <header>CSS Syntax</header>
+      <p>You should know 3 basic things about CSS syntax.</p>
+      <ol>
+        <li>Selectors</li>
+        <li>Properties</li>
+        <li>Values</li>
+      </ol>
+      <p>CSS is simply a long list of these three items.
+        <code>
+          selector {property:value;}
+        </code>
+      <ol>
+        <li>Selectors</li>
+        <p>A selector is simply a way to reference the item in html that you want to "style". There are 3 kinds of css selectors.</p>
+        <ol>
+          <li>Tags</li>
+            <code><xml>h3 {color:blue;}</xml></code>
+          <li>Classes</li>
+            <code><xml>.spa-treatment-packages {color:blue;}</xml></code>
+          <li>ID's</li>
+            <code><xml>#package1 {color:blue;}</xml></code>
+        </ol>
+        <li>Properties</li>
+          <p>Once you've "selected" the element you want to style, next you need to state the property of the element that you want to modify.</p>
+          <p>For example, a property could be</p>
+          <ul>
+            <li>Width - width of elements.</li>
+            <li>Height - height of elements.</li>
+            <li>Margin - space between elements.</li>
+            <li>Color - dictates the color of elements.</li>
+            <li>Background - background of an HTML document.</li>
+          </ul>
+          <p>The list goes on and on and on... literally. No need to memorize these, just be smart about search engine use.</p>
+        <li>Values</li>
+          <p>Last but not least, you can <strong>select</strong> the element you want to manipulate, and you can state the <strong>property</strong> that you're wanting to adjust, but if you don't provide a <strong>value</strong> then nothing will happen. The browser will not know what to do for you!</p>
+          <p>If you felt like there were a lot of elements to select, and if you felt like there were a lot of properties to adjust, then hold on tight because the most options of all will include the amount of values you can state.</p>
+          <code>
+            selector {property:value;}
+          </code>
+          <p>I'm not going to list common values because they are infinite. Values are 
+            <ul>
+              <li>The exact size font you want</li>
+              <li>The exact color you want your text to be</li>
+              <li>The exact dimensions of your profile pic</li>
+              <li>The exact pixels your paragraphs expand to</li>
+            </ul>
+          <p>The list of values is infinite.</p>
+    </section>
+
+    <section class="main-section" id="where_to_go_from_here">
+      <header>Where to Go From Here</header>
+      <p>If you're new to programming, this probably felt like a lot of information. But rest assured, I can tell you from experience that programming is a snowball effect unlike anything else. The more you learn, the easier everything gets. It's hardest at the start. But if you push through, it's extremely rewarding.</p>
+      <p>In closing, I recommend taking on the #100DaysOfCode challenge and starting at <a href="https://www.freecodecamp.com">Free Code Camp</a>. Get on there and play around. It's fascinating to discover how everything works under the hood.</p>
+      <p>Cheers and thanks for reading.</p>
+      <p>Seth</p>
+
+  </main>
+</html>

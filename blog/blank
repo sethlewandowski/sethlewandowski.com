@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+  <meta charset="utf-8">
+  <title>Blank Page | Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: Blank page. Empty stage. It's all the rage.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css"/>
+  <link rel="prev" href="https://sethlewandowski.com/blah">
+  <link rel="next" href="https://sethlewandowski.com/build">
+
+  <meta property="og:title" content="Blank Page | Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/blank">
+  <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
+  <meta property="og:description" content="Blank page. Empty stage. It's all the rage.">
+</head>
+
+<body id="oneblog">
+
+<section id="masthead">
+<h1><a href="../" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+</section>
+
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="../words" rel="tag">Words</a>:</div>
+<h1>Blank Page</h1>
+<small>June 11, 2019</small>
+</header>
+
+<p>
+Blank page.<br>
+Empty stage.<br>
+It’s all the rage.
+</p><p>
+We all get a voice.<br>
+Whether you use it or not,<br>
+I guess that’s your choice.
+</p><p>
+It’s like it’s stuck inside your head,<br>
+On the brink of death,<br>
+Waiting to be fed.
+</p><p>
+But life goes on and on.<br>
+Just like that Avicii song.
+</p><p>
+If you don’t know what I’m saying,<br>
+Just give it time and keep on praying.
+</p><p>
+We all have something to say.<br>
+It’s up to you to decide whether or not you’ll keep it at bay.
+</p>
+
+<footer>
+© 2019 <a href="https://sethlewandowski.com">Seth Lewandowski</a>.
+(
+  « <a href="blah" accesskey="p" rel="prev">previous</a>
+  ||
+  <a href="build" accesskey="n" rel="next">next</a> »
+)
+<h1>
+  Copy &amp; share:
+  <a href="https://sethlewandowski.com/blog/blank">sethlewandowski.com/blog/blank</a>
+</h1>
+</footer>
+</article>
+
+</div>
+</body>
+</html>

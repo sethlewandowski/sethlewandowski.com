@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: Entrepreneur, writer, learner.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css" />
+  <meta property="og:title" content="Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/">
+  <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
+  <meta property="og:description" content="Seth Lewandowski: Entrepreneur, writer, learner.">
+</head>
+
+<body id="words">
+<section id="masthead">
+<h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+</section>
+
+<div id="content">
+
+<h1>The True Cost of Hospice Trade Shows for Hospices</h1>
+<p>
+Number of Attendees <input type="number" name="NOA" id="NOA" placeholder="3" required /><br/>
+Conference Length (days) <input type="number" name="CL" id="CL" placeholder="3" required/><br/>
+Hotel Cost per Night <input type="number" name="HC" id="HC" placeholder="250" required/><br/>
+Air Fare <input type="number" name="AF" id="AF" placeholder="450" required/><br/>
+Average Salary of Attendees <input type="number" name="ASA" id="ASA" placeholder="60,000" required/><br/>
+Registration Fee per Attendee <input type="number" name="RF" id="RF" placeholder="500" required/><br/>
+<input type="button" value="Cost of National Show" id="national" onclick="calculateCostOfShow('national');" />
+<input type="button" value="Cost of State Show" id="state" onclick="calculateCostOfShow('state');" />
+</p>
+
+<div id="output"></div>
+
+<h2>
+  Okay, so what's the context here?
+</h2>
+<p>
+  This is the first script I built for a real purpose. 
+  I was collaborating on an article, <a href="https://www.sonohs.com/blog/are-hospice-trade-shows-worth-it">Are Hospice Trade Shows Worth It</a>, and got the opportunity to help by building a calculator on the page for hospice executives to use to quickly get a ballpark figure for the cost of attending both state and national trade shows. 
+</p><p>
+  This was by far the biggest programming challenge I've taken on and it threw me for quite a few loops. I'll go ahead and show you the final code then discuss the major things that went wrong.
+</p>
+<xmp>
+  <script type="text/javascript">
+
+function calculateCostOfShow(conferenceType) {
+  // Declare all variables used in the function
+  const numOfAttendees = parseInt(document.getElementById("NOA").value);
+  const conferenceLength = parseInt(document.getElementById("CL").value);
+  const hotelCost = parseInt(document.getElementById("HC").value);
+  const airFare = parseInt(document.getElementById("AF").value);
+  const averageSalary = parseInt(document.getElementById("ASA").value);
+  const registrationFee = parseInt(document.getElementById("RF").value);
+  const hoursWorkedInAYear = 2080;
+  const hoursWorkedInADay = 8;
+  let costOfShow = "";
+
+  if (conferenceType == "national") {
+    costOfShow = numOfAttendees * ((hotelCost*conferenceLength)+(airFare)+((averageSalary/hoursWorkedInAYear)*(hoursWorkedInADay*conferenceLength))+registrationFee); 
+  } else if (conferenceType == "state") {
+    costOfShow = numOfAttendees * (((averageSalary/hoursWorkedInAYear)*(hoursWorkedInADay*conferenceLength))+registrationFee);
+  } else { 
+    costOfShow = 'error';
+}
+  if (isNaN(costOfShow)) {
+    output.innerHTML = "Please provide a value for all inputs.";
+  } else { 
+    output.innerHTML = "The cost of this " + conferenceType + " show is $" + costOfShow.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+  }
+};
+
+</script>
+</xmp>
+<p>
+  Now I know this looks complicated, but trust me, if I can do it, you can too. Let's break it down.
+</p>
+
+<h3>
+  The First Section
+</h3>
+<xmp>
+function calculateCostOfShow(conferenceType) {
+  // Declare all variables used in the function
+  const numOfAttendees = parseInt(document.getElementById("NOA").value);
+  const conferenceLength = parseInt(document.getElementById("CL").value);
+  const hotelCost = parseInt(document.getElementById("HC").value);
+  const airFare = parseInt(document.getElementById("AF").value);
+  const averageSalary = parseInt(document.getElementById("ASA").value);
+  const registrationFee = parseInt(document.getElementById("RF").value);
+  const hoursWorkedInAYear = 2080;
+  const hoursWorkedInADay = 8;
+  let costOfShow = "";
+</xmp>
+<p>
+  To be clear, this is all one function. But it didn't start that way. It started as 2 functions but I'll get to that later in the 3 biggest mistakes section. 
+</p><p>
+  This first block declares the function and the parameter to be passed to the function when called. Then as you can see by my comment, the first thing that the function does is declare all the variables we use in the function.
+</p>
+
+
+
+
+</div>
+<script type="text/javascript">
+
+function calculateCostOfShow(conferenceType) {
+  // Declare all variables used in the function
+  let numOfAttendees = parseInt(document.getElementById("NOA").value);
+  let conferenceLength = parseInt(document.getElementById("CL").value);
+  let hotelCost = parseInt(document.getElementById("HC").value);
+  let airFare = parseInt(document.getElementById("AF").value);
+  let averageSalary = parseInt(document.getElementById("ASA").value);
+  let registrationFee = parseInt(document.getElementById("RF").value);
+  let hoursWorkedInAYear = 2080;
+  let hoursWorkedInADay = 8;
+  let costOfShow = "";
+
+  if (conferenceType == "national") {
+    costOfShow = numOfAttendees * ((hotelCost*conferenceLength)+(airFare)+((averageSalary/hoursWorkedInAYear)*(hoursWorkedInADay*conferenceLength))+registrationFee); 
+  } else if (conferenceType == "state") {
+    costOfShow = numOfAttendees * (((averageSalary/hoursWorkedInAYear)*(hoursWorkedInADay*conferenceLength))+registrationFee);
+  } else { 
+    costOfShow = 'error';
+}
+  if (isNaN(costOfShow)) {
+    output.innerHTML = "Please provide a value for all inputs.";
+  } else { 
+    output.innerHTML = "The cost of this " + conferenceType + " show is $" + costOfShow.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+  }
+};
+
+</script>
+</body>
+</html>

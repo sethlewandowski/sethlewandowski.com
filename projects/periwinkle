@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Seth Lewandowski</title>
+    <meta name="description" content="Tribute to Derek Sivers">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <meta property="og:title" content="Seth Lewandowski">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sethlewandowski.com/projects/tribute">
+    <meta property="og:image" content="">
+        <figcaption id="img-caption">
+    <meta property="og:description" content="Tribute to Derek Sivers">
+  </head>
+
+  <body>
+  <section id="masthead">
+    <h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+  </section>
+
+  <p><a href="../">Back to My Projects</a></p>
+
+  <content id="main">
+    <h2 id="title">My First Website From Scratch</h2>
+    <p>3 years ago, I thought it would be cool to start a business with my 3 best friends. I learned a TON of stuff from this experience and part of me wouldn't want to do it differently even if I could.</p>
+    <p>As the only co-founder with any technology experience (I had built a squarespace website before), I took on the role of the "tech guy". It's been a long road, but it eventually led to me wanting to rebuild our business site from scratch. It was originally built with squarespace.</p>
+    <h3><a href="https://www.goperiwinkle.com">Check it out!</a></h3>
+    
+  </body>
+
+</html>

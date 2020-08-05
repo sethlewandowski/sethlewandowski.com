@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: Entrepreneur, writer, learner.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css" />
+  <meta property="og:title" content="Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/">
+  <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
+  <meta property="og:description" content="Seth Lewandowski: Entrepreneur, writer, learner.">
+</head>
+
+<body id="words">
+<section id="masthead">
+<h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+</section>
+
+<div id="content">
+
+<h1>My First Script</h1>
+
+<script>
+window.onload=function(){
+  
+  window.name = "window";
+
+  let newObject = {
+  name:"object",
+
+  sayGreeting: function(){
+  alert("Now this is easy, " + this.name);
+  nestedGreeting = function(greeting){
+    alert(greeting + " " + this.name);
+    }.bind(this);
+
+    nestedGreeting("hello");
+  }
+
+  };
+
+  newObject.sayGreeting("hello");
+}
+
+</script>
+
+<p>
+  
+</div>
+</body>
+</html>

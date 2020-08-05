@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Jordan Lee Lashes</title>
+    <meta name="description" content="Jordan Lee Lashes site rebuild.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <meta property="og:title" content="Jordan Lee Lashes">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sethlewandowski.com/projects/lashes">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Jordan Lee Lashes site rebuild.">
+  </head>
+
+  <body>
+    <section id="masthead">
+      <h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+    </section>
+
+    <p><a href="../projects">Back to My Projects</a></p>
+
+    <content id="main">
+      <h1 id="title">Jordan Lee Lashes Website Rebuild</h1>
+      <h3><a href="https://www.jordanleelashes.com">www.jordanleelashes.com</a></h3>
+      <p>This is one of my first website rebuilds for a paying customer. Jordan is a talented eyelash artist working in Tulsa, OK and she is killing it. She has tons of business but didn't have the best website to support her in-person image and work product quality. A friend of mine recommended I reach out to her and offer to help her get her website up to the quality of her work (which is understandably hard for non-techy people to do).</p>
+      <p>Now, this was a squarespace website rebuild so it wasn't really that "technical". Though, any web developer will tell you sometimes it feels harder to use a builder than to go from scratch.</p>
+      <p>After looking at her current site, I decided the best course of action was to start from scratch. Below I'll explain my process.</p>
+      <hr>
+      <h2>My Process</h2>
+      <h3>1. Understand the purpose of her website.</h3>
+        <ul>
+          <li>Was she trying to display her work?</li>
+          <li>Get business?</li>
+          <li>Get visibility?</li>
+          <li>Display testimonials?</li>
+        </ul>
+        <p>The first step was stopping everything and thinking carefully about what this site needed to do. I'm a strong believer in building function first, aesthetics second.
+        There's a saying in software that goes, "First, make it work. Then, make it fast. Finally, make it pretty."
+        I try hard to follow that motto.</p>
+        
+      <h3>2. Look at what she had already.</h3>
+        <p>Sure, sometimes you have to start from absolute scratch, but in this case, I wanted to see what she already had and what had been working for her. I wanted to get an idea for the flow of everything.</p>
+        
+      <h3>3. Get some inspiration from other business websites in her space.</h3>
+      <p>I don't run a nail salon, so I don't know the look and feel of what this kind of site needs to have. I'm a big believer in getting inspiration from other great sites.</p>
+        
+      <h3>4. Dive in and build the structure.</h3>
+        <ol>
+          <li>I started by finding a theme I liked. I pay attention to how the nav bars work, especially with mobile. Once I find a theme I like, I install it and start building pages.</li>
+          <li>I started by building a landing page where you learn about the customer. I added a photo of the business owner, Jordan, and a short description about her and what she does.</li>
+          <li>I connected her Instagram to the site so she can simply add work photos to her instagram and they automatically populate on her website. For me, you don't really do a good job building a site for someone unless you create it to be as automated for them as possible. Sure this might be bad business for the developer (i.e. less need for recurring help) but it's the right thing to do for the client.</li>
+          <li>On the bottom of the home page, there's a clear call to action to review the prices and services offered. This button takes you to page #2 - Services.</li>
+          <li>The services page is very simple. I listed all the services that Jordan offers and the prices associated. Most of this information was already provided to me by the client but I tried to make it flow easily and be more organized. During this stage, I made sure that all my h1, h2, and h3's were used correctly to make the styling easer after the structure was complete.</li>
+          <li>At the bottom of the services page is another clear call to action button to take a visitor to the scheduling page where they can book a service and get on the schedule. Jordan had already set up an Acuity Scheduling account so this was a farily easy step. The only thing I did here was log into her acquity scheduling page and clean up some of the unnecessary information and steps to make the process of getting on the schedule as easy as possible.</li>
+          <li>Last but not least, I built a contact page just in case a customer wanted to reach out to Jordan via telephone or email. I also included a photo of her studio and the address so people know where to find her. I made sure to make contacting her as easy as possible by using links such as 'tel:', 'mailto:', and a personal favorite 'sms:'. These just make the website work more like a webapp and make it more seamless for the user.
+          </li>
+        </ol>
+      <h3>5. Style it.</h3>
+        <p>For this, Jordan didn't have much of a digital brand set up prior to working with me so I looked at acutal photos of her salon and copied some of the accent pillows she had chosen to use in her space. I also looked at her instagram page to see what kind of style and colors she used there.</p>
+        <p>I came across a nice pink color and went with it as the core color for the site.</p>
+
+      <h3>6. Show your girlfriend</h3>
+        <p>Once I had what I thought to be a pretty killer website that worked much like a front office clerk (i.e. tell customer about your business and the owner, show examples of work, explain service offerings and pricing, and allow customer to book an appointment if interested), I went home and showed my girlfriend to get a female's perspective. Let's just say, she didn't exactly love everything. So I made some changes to the font types (Very important part of web design) and after that she was happy.</p>
+
+      <h3>7. I slept on it.</h3>
+        <p>After spending a good portion of the day writing, editing, styling, and testing the site, I was pretty tired and wasn't able to catch as many flaws in detail as I am in the mornings. So, I slept on it. The following morning when I was totally fresh, I took another look and tested it both on mobile and desktop to make sure the rendering and other features were working properly across all devices and screen sizes. Once I was happy, I presented it to the client and in her words she replied, "OMG I LOVE IT THANK YOU SO SO SO MUCH."</p>
+      <hr>
+      <h2>Reflection</h2>
+      <p>
+      What started as a simply Instagram DM message ended in me finalizing my first website rebuild for a paying customer. Now, I can't say this is the kind of rebuild that would get me respect at a San Francisco mixer in the FiDi, but at the end of the day, this is still a big moment for a self taught developer. Going from completing lessons on Free Code Camp to building my own site from scratch to making my first dollar as a developer feels great. I'm also so happy that my client loved her site. Most encouraging of all, she's already generated new bookings out of it from random people coming across her site.</p>
+      <p>While I do consider myself a "Creative" when it comes to writing, films, or photography, when it comes to websites that I build, I want them to work. And when I say "work", that usually means "Get business". If your site is cute but ultimately doesn't work properly, it's pointless and probably detracts from your business. I follow the paradigm of 
+        <ol>
+          <li>Make it <bold>work</bold>.</li>
+          <li>Make it <bold>fast</bold>.</li>
+          <li>Make it <bold>pretty</bold>.</li>
+        </ol>
+      I guess at the end of the day, I am a programmer first and foremost. I care more about it working at a high level than looking fancy.</p>
+      <p>
+        Well, that's my story and first dollar made as a web developer. Feels great. Thanks for reading.
+      </p>
+      <p><a href="../projects">Back to My Projects</a></p>
+    </content> 
+    <div data-token="AlHTcqvRgxU5iRD8PsnCxuHNPaQqTsYMPKJOXvY7DCXDgL0a5B" class="romw-reviews"></div>
+    <script src="https://reviewsonmywebsite.com/js/embedLoader.js?id=16985fd9e429040ba7c6" type="text/javascript"></script>
+  </body>
+</html>

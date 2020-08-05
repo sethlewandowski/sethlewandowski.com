@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145306611-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-145306611-1');
+</script>
+
+  <meta charset="utf-8">
+  <title>My First Post | Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: Wait, what am I doing?">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css"/>
+  <link rel="prev" href="https://sethlewandowski.com/fewer">
+  <link rel="next" href="https://sethlewandowski.com/forever">
+
+  <meta property="og:title" content="My First Post | Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/first">
+  <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
+  <meta property="og:description" content="Wait, what am I doing?">
+</head>
+
+<body id="oneblog">
+
+<section id="masthead">
+<h1><a href="../" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+</section>
+
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="../words" rel="tag">Words</a>:</div>
+<h1>My First Post</h1>
+<small>June 22, 2018</small>
+</header>
+
+<p>
+<strong>Wait, what am I doing?</strong><br>
+Anytime you embark on a new adventure, you can’t help but ask yourself, “Wait, what am I doing and why am I doing this?”<br>
+(And the crowd erupts, clapping for the most uninspiring title and subtitle in history).
+</p><p>
+It’s a fair question.<br>
+For example, when I decided to finally say screw it and start a personal site, I really didn’t know if it would be worth it and what would come of it.
+</p>
+<h4>The questions going through my head:</h4>
+<ul>
+<li>Will I make money doing this?</li>
+<li>Will this be a good use of my time?</li>
+<li>Will this help people?</li>
+<li>Will I be made fun of by people?</li>
+<li>Will my Mom be the only one who ever visits my site?</li>
+</ul>
+<p>
+You know, all the normal questions that go through a 26-year old’s head when starting a new project.<br>
+Anyway, back to the blog post.
+</p><p>
+Do you ever just know it’s time to do something but can’t really make logical sense of it?<br>
+If you are like me and have pretty much completely suffocated your emotional influence on decision making, then you will understand the weird feeling of doing something that doesn’t make perfect logical sense.<br>
+Shout out to all you <a href="https://www.16personalities.com/intj-personality">Architects</a> out there!
+</p><p>
+I guess what I am trying to say is, I really don’t have an end game or objective that I am trying to accomplish through this project, website, whatever.<br>
+Part of me wants to connect with people all over the world.<br>
+Part of me wants to prove to people that anyone can do it.<br>
+Part of me wants to just get stuff on paper and feel like the luckiest person in the world if somehow it ends up helping someone else.<br>
+Maybe that’s it?<br>
+Maybe I feel so blessed by all the inspiring people in our world that are literally just willing to spoon feed us advice on how to get what we want out of this life.<br>
+That one feels right so let’s stick with that.
+</p>
+
+<h3>My Promise</h3>
+<p>
+For anyone reading this, I promise to be a writer of character and honor.<br>
+I will not peddle crap hoping to make a quick buck off you.<br>
+Nor will I lie to you in the hopes of misleading you or trying to make a profit off of you.<br>
+This will be genuine.<br>
+This will be raw.<br>
+This will be messy.<br>
+This is Seth Lewandowski and this is his journey.
+</p><p>
+Cheers,
+</p><p>
+Seth
+</p><p>
+P.S. Next time you are sharing a drink with a friend, raise your glass before taking a sip and say “Cheers” and bump glasses, when you do this, really look at the person and realize that you are lucky to have someone sitting across from you sharing a drink with you.<br>
+This life is a gift people, don’t squander it on superficial crap.
+</p>
+<footer>
+© 2019 <a href="https://sethlewandowski.com">Seth Lewandowski</a>.
+(
+  « <a href="fewer" accesskey="p" rel="prev">previous</a>
+  ||
+  <a href="forever" accesskey="n" rel="next">next</a> »
+)
+<h1>
+  Copy &amp; share:
+  <a href="https://sethlewandowski.com/blog/first">sethlewandowski.com/blog/first</a>
+</h1>
+</footer>
+</article>
+
+</div>
+</body>
+</html>

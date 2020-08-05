@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Claire Landers Bartending</title>
+    <meta name="description" content="Private bartending website for Claire.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <meta property="og:title" content="Claire Landers Bartending">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sethlewandowski.com/projects/bartending">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Private bartending website for Claire.">
+  </head>
+
+  <body>
+    <section id="masthead">
+      <h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+    </section>
+
+    <p><a href="../">Back to My Projects</a></p>
+
+    <content id="main">
+      <h1 id="title">Private bartending website for Claire.</h1>
+        <h3><a href="https://www.claire.land">claire.land</a></h3>
+        <h3>Background</h3>
+          <p>This project was one of my more straightforward projects. You see, Claire is my wonderful girlfriend and she has started taking on bartending gigs for private events. So, me being my entrepreneurial minded self offered to make her a website to help get more business. Thankfully, she consented and off I went!</p>
+        <h3>Goal</h3>
+          <p>For this site, I wanted it to look elegant, simple, but powerful. I didn't want to overdo it with fluff or unnecessary jargon, so I kept it straight to the point.</p>
+        <h3>Techy Stuff</h3>
+          <p>I wanted the mobile experience on this site to work much like an app with an easy to navigate interface and lots of touch-to-action links. This included:
+            <ul>
+              <li>Text me link in nav menu</li>
+              <li>Call me link in nav menu</li>
+              <li>Instagram link in footer bar</li>
+              <li>Linkedin link in footer bar</li>
+              <li>Phone link in footer bar</li>
+            </ul>
+          </p>
+          <p>This was also my first website where the navigation options change depending on whether the visitor is using a desktop sized screen or mobile sized screen. Why? Because it doesn't make a ton of sense to have a "Text Me" option when a user is on a desktop as people don't really text from their desktop. So, you'll notice by changing the screen size on <a href="https://www.claire.land">claire.land</a> that the menu items change based on screen size. Go ahead, give it a try!</p>
+
+        <h3>Domain Selection</h3>
+          <p>You don't always get the chance to choose the domain you want to use for a clients site, but in this case, I did. Claire's full name is Claire Landers (for now) and a fun play on her name is Claire Land, kinda like Disney Land. Make sense?
+          </p>
+          <p>So, claire.land was available and we went with it!</p>
+
+        <h3>Javascript</h3>
+          <p>Yes, I did use a little bit of .js on this site. I love when the landing page focuses all the attention on the main image and headline text, and that is most easily achieved (IMHO) with a transparent nav bar upon the first glance of the site. But, when a user scrolls down a little bit the nav bar changes from transparent to full color. It's a simple script, admittedly, but it's a fun and useful one as well.</p>
+
+        <h3>That's it!</h3>
+          <p>Yep! It's a 1-page site for now, but in the future, I know Claire will want to use her site as a place for her food blog information as well so stay tuned!</p>
+      <p><a href="../index">Back to My Projects</a></p>
+    </content> 
+  </body>
+</html>

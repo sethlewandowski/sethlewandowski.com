@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145306611-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-145306611-1');
+</script>
+
+  <meta charset="utf-8">
+  <title>You're a Wizard, Harry. | Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: 4 words that we all wish we could hear.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css"/>
+  <link rel="prev" href="https://sethlewandowski.com/unsaid">
+  <link rel="next" href="https://sethlewandowski.com/word">
+
+  <meta property="og:title" content="You're a Wizard, Harry. | Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/wizard">
+  <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
+  <meta property="og:description" content="4 words that we all wish we could hear.">
+</head>
+
+<body id="oneblog">
+
+<section id="masthead">
+<h1><a href="../" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+</section>
+
+<div id="content">
+
+<article>
+<header>
+<div class="blogparent"><a href="../words" rel="tag">Words</a>:</div>
+<h1>You're a Wizard, Harry.</h1>
+<small>December 4, 2018</small>
+</header>
+
+<p>
+4 words.<br>
+4 words that we all wish we could hear.<br>
+4 words that would answer the question we all ask.<br>
+4 words that represent the greatest gift you could give.
+</p><p>
+4 words that most of us don’t hear.<br>
+4 words that most don’t feel qualified to say.<br>
+4 words that give the gift of certainty.<br>
+4 words that spark a dream inside you.
+</p><p>
+4 words that are all too easy to say.<br>
+4 words that feel impossible to mean.<br>
+4 words that literally give the blueprint to move mountains.<br>
+4 words that give the power to motivate countries.
+</p><p>
+4 words that a family member had the stones to say to me.<br>
+4 words that have haunted me since that very day.<br>
+4 words I can’t get out of my head.<br>
+4 words that opened the door to me writing this very word.
+</p>
+
+<footer>
+© 2019 <a href="https://sethlewandowski.com">Seth Lewandowski</a>.
+(
+  « <a href="unsaid" accesskey="p" rel="prev">previous</a>
+  ||
+  <a href="word" accesskey="n" rel="next">next</a> »
+)
+<h1>
+  Copy &amp; share:
+  <a href="https://sethlewandowski.com/blog/wizard">sethlewandowski.com/blog/wizard</a>
+</h1>
+</footer>
+</article>
+
+</div>
+</body>
+</html>

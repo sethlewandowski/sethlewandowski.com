@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145306611-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-145306611-1');
+    </script>
+
+  <meta charset="utf-8">
+  <title>Cage | Seth Lewandowski</title>
+  <meta name="description" content="This ain't no hype speech. Nor is it a Sunday morning's sermon preach.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../styles.css"/>
+  <link rel="prev" href="https://sethlewandowski.com/blog/irrefutable">
+  <link rel="next" href="https://sethlewandowski.com/words">
+
+  <meta property="og:title" content="Cage | Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/blog/cage">
+  <meta property="og:image" content="">
+  <meta property="og:description" content="This ain't no hype speech. Nor is it a Sunday morning's sermon preach.">
+</head>
+
+<body id="oneblog">
+
+  <section id="masthead">
+  <h1><a href="../" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+  </section>
+
+  <div id="content">
+
+  <article>
+    <header>
+    <div class="blogparent"><a href="../words" rel="tag">Words</a>:</div>
+      <h1>Cage</h1>
+      <small>December 19th, 2019</small>
+    </header>
+
+      <p>
+        I see your flow.<br>
+        I hear your sound.<br>
+        You already know you got my heart pumping at a pound.
+      </p><p>
+        The challenges, they will come.<br>
+        Come on, you know, we all got some.<br>
+        Only difference is the timing, and where they originate from.
+      </p><p>
+        But step out of my way.<br>
+        Caus the sun's shining and it's a brand new day.<br>
+        You think you got my ass hiding? Just waiting it out till May?
+      </p><p>
+        Nah, I'm not scared of you.<br>
+        And our story, nope we ain't even close to being through.<br>
+        So let's get it on then and do what we gotta do.
+      </p><p>
+        Step up and say it to my face.<br>
+        Go on, go ahead, put me in my place.<br>
+        I'll get up again, even if I gotta stop and retie my shoe lace.
+      </p><p>
+        You wanna know what I'm getting at?<br>
+        I'm saying, "Get up, kid, and swing the ****in' bat."<br>
+        Worst case you get knocked back down to this same exact mat.
+      </p><p>
+        This ain't no hype speech.<br>
+        Nor is it a Sunday morning's sermon preach.<br>
+        But since when did we all expect life to be just another day at the beach?
+      </p><p>
+        "Blah, blah, blah. It's just words on a page.<br>
+        Who reads this shit anyway? You'll never make the stage."<br>
+        Do yourself a favor and don't let all the doubters lock <strong>you</strong> up in a cage. 
+      </p>
+
+  <footer>
+  © 2019 <a href="https://sethlewandowski.com">Seth Lewandowski</a>.
+  (
+    « <a href="irrefutable" accesskey="p" rel="prev">previous</a>
+    ||
+    <a href="../words" accesskey="n" rel="next">next</a> »
+  )
+  <h1>
+    Copy &amp; share:
+    <a href="https://sethlewandowski.com/blog/cage">sethlewandowski.com/blog/cage</a>
+  </h1>
+  </footer>
+  </article>
+
+  </div>
+</body>
+</html>
