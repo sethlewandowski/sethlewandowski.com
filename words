@@ -39,6 +39,7 @@
   <main>
   <h1>Words</h1>
     <ul>
+      <li><a href="blog/shell">The Sand or The Shell</a></li>
       <li><a href="blog/5">5 minutes</a></li>
       <li><a href="blog/28">The 28 Things I've Learned the Hard Way</a></li>
       <li><a href="blog/simplify">Simplify</a></li>
