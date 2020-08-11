@@ -35,7 +35,7 @@ body{
 	max-width:40em;
 	margin:0 auto;
 	padding:5px;
-  font-size:1.1em;
+  font-size:1rem;
 	line-height:2rem;
 }
 .hamburger-button{
@@ -97,7 +97,7 @@ a:hover{
 
 dt{margin-top:2em}
 
-dd{font-style:bold;font-size:80%}
+dd{font-style:bold;font-size:90%}
 
 li,dd{margin-bottom:1em}
 
@@ -173,7 +173,7 @@ div.presentation_summary{margin-bottom:6em}
 
 @media screen and (max-width: 800px){
   #masthead a, h1{
-    font-size: 25px;
+    font-size: 2rem;
     margin-top: 20px;
   }
   img {
