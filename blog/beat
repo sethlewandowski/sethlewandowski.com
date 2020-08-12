@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-
-
   <meta charset="utf-8">
   <title>Beat | Seth Lewandowski</title>
   <meta name="description" content="Seth Lewandowski: Back here in the mix again. Finally sacked up and picked up that pen.">
@@ -16,6 +14,7 @@
   <meta property="og:url" content="https://sethlewandowski.com/beat">
   <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
   <meta property="og:description" content="Back here in the mix again. Finally sacked up and picked up that pen.">
+<script src="https://cdn.usefathom.com/script.js" site="VLTYTXOE" defer></script>
 </head>
 
 <body id="oneblog">

@@ -2,14 +2,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145306611-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-145306611-1');
-</script>
 
   <meta charset="utf-8">
   <title>Be Different | Seth Lewandowski</title>
@@ -24,6 +16,7 @@
   <meta property="og:url" content="https://sethlewandowski.com/different">
   <meta property="og:image" content="https://sethlewandowski.com/image1.jpg">
   <meta property="og:description" content="Do you have one of those friends that always seem to say, “Man, I just want to be a millionaire and live on a beach”?">
+<script src="https://cdn.usefathom.com/script.js" site="VLTYTXOE" defer></script>
 </head>
 
 <body id="oneblog">

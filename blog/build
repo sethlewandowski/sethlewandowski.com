@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145306611-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-145306611-1');
-</script>
-
   <meta charset="utf-8">
   <title>Entrepreneurs Don't Build Businesses | Seth Lewandowski</title>
   <meta name="description" content="Seth Lewandowski: I wish with all my heart that I could write a comprehensive article detailing when, where, and why to partner with other people.">
@@ -23,6 +14,7 @@
   <meta property="og:url" content="https://sethlewandowski.com/build">
   <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
   <meta property="og:description" content="I wish with all my heart that I could write a comprehensive article detailing when, where, and why to partner with other people.">
+<script src="https://cdn.usefathom.com/script.js" site="VLTYTXOE" defer></script>
 </head>
 
 <body id="oneblog">

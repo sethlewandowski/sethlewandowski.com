@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145306611-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-145306611-1');
-</script>
+
 
   <meta charset="utf-8">
   <title>Everyone's Telling You | Seth Lewandowski</title>
@@ -23,6 +16,7 @@
   <meta property="og:url" content="https://sethlewandowski.com/telling">
   <meta property="og:image" content="https://sethlewandowski.com/images/image1.jpg">
   <meta property="og:description" content="We’ve all heard them. They’re the “I don’t know what I want to do” people.">
+<script src="https://cdn.usefathom.com/script.js" site="VLTYTXOE" defer></script>
 </head>
 
 <body id="oneblog">
