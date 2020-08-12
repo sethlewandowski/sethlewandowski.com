@@ -43,6 +43,7 @@ body{
   right: 20px;
   position: fixed;
   z-index: 100;
+  display: none; /* Hiding the mobile nav menu for now! */
 }
 .hamburger-bar{
   border-radius: 25px;
