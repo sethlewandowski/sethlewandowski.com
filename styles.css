@@ -11,7 +11,6 @@
   --title-font: 'Roboto', sans-serif;
   --normal-font: 'Open Sans', sans-serif;
 }
-
 *{
   background-color:var(--background);
   color: var(--text);
@@ -26,9 +25,11 @@ h1, h2, h3, h4, h5 {
   font-family: var(--title-font);
 }
 
-#masthead a{
+h1#masthead a{
   color: var(--title);
   font-size: 35px;
+  padding-left: 10px;
+  margin: 20px 0px 10px 0px;
 }
 
 body{
@@ -38,13 +39,15 @@ body{
   font-size:18px;
 	line-height:2rem;
 }
+
 #hamburger-button{
   top: 23px; /* looks best to match masthead text*/
   right: 20px;
-  position: fixed;
+  /*position: fixed;*/  /*wanting the parent to be fixed not just this*/
   z-index: 100;
   display: none;
   background-color: transparent;
+  padding-right: 30px
 }
 #hamburger-top-bun, #hamburger-patty, #hamburger-bottom-bun{
   border-radius: 25px;
@@ -156,6 +159,7 @@ section{margin-bottom:4em}
 
 section#masthead{margin-bottom:1em}
 
+
 main article header h1{margin-bottom: 0}
 main h2 small{margin-left:2em}
 
@@ -185,6 +189,20 @@ div.presentation_summary{margin-bottom:6em}
   img {
     display: block;
   }
+  main{
+    margin-top: 60px;
+  }
+  #navigation-bar{
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  height: 60px;
+  z-index: 1;
+}
   #hamburger-button{
     display: block;
   }
@@ -193,7 +211,7 @@ div.presentation_summary{margin-bottom:6em}
     width: 100vw; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 70px; /* Stay at the top */
+    top: 60px; /* Stay at the top */
     left: 0;
     text-align: center;
     transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */

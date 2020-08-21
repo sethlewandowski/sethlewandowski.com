@@ -7,7 +7,7 @@ function toggleNavigationMenu() {
   const background = document.getElementsByTagName('main')[0]; // get main part of document
 
   if (nav.style.height === ""){         // if nav is hidden
-  	nav.style.height = "400px";         // open drawer to stated size
+  	nav.style.height = "375px";         // open drawer to stated size
     background.style.opacity = ".3";    // and dim the background
   } else {                              // trigger if function is called and nav is already open 
   	nav.style.height = "";              // make drop down nav go away
@@ -30,14 +30,16 @@ document.addEventListener("click", (click) => {
     }
 });
 
-let lastPosition = 100;             // initialize a threshold for hiding nav
+/*            // initialize a threshold for hiding nav
 window.onscroll = () => {           // when user scrolls, this fires
-  
+  let lastPosition = 100; 
   if (screen.width < 800) {         // run only on mobile device
     let currentPosition = window.pageYOffset; // set currentPosition
-    const nav = document.getElementById('menu'); // get entire nav component
+    const nav = document.getElementById('navigation-bar'); // get entire nav component
     const background = document.getElementsByTagName('main')[0];
     background.style.opacity = ""
+
+    console.log(`cp: ${currentPosition} \n lp: ${lastPosition}`)
     if (currentPosition > lastPosition) {         // detect if user has scrolled down
       nav.style.height = 0;                 // if so, hide entire nav
     } else if (currentPosition < lastPosition) {  // but if user has scrolled up
@@ -45,4 +47,4 @@ window.onscroll = () => {           // when user scrolls, this fires
     }
     lastPosition = currentPosition;               // reset value for 'lastPosition';
   }
-}
+}*/
