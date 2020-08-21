@@ -36,7 +36,8 @@ window.onscroll = () => {           // when user scrolls, this fires
   if (screen.width < 800) {         // run only on mobile device
     let currentPosition = window.pageYOffset; // set currentPosition
     const nav = document.getElementById('menu'); // get entire nav component
-
+    const background = document.getElementsByTagName('main')[0];
+    background.style.opacity = ""
     if (currentPosition > lastPosition) {         // detect if user has scrolled down
       nav.style.height = 0;                 // if so, hide entire nav
     } else if (currentPosition < lastPosition) {  // but if user has scrolled up
