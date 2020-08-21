@@ -38,34 +38,38 @@ body{
   font-size:18px;
 	line-height:2rem;
 }
-.hamburger-button{
+#hamburger-button{
   top: 23px; /* looks best to match masthead text*/
   right: 20px;
   position: fixed;
   z-index: 100;
-  display: none; /* Hiding the mobile nav menu for now! */
+  display: none;
+  background-color: transparent;
 }
-.hamburger-bar{
+#hamburger-top-bun, #hamburger-patty, #hamburger-bottom-bun{
   border-radius: 25px;
-  width: 25px;
   height: 3px;
   background-color: var(--title);
   margin: 6px 0;
 }
-.menu{
+#hamburger-top-bun{
+  width: 30px;
+}
+#hamburger-patty{
+  width: 20px;
+}
+#hamburger-bottom-bun{
+  width: 10px;
+}
+#menu{
   margin: 0 30px 0 0;
 }
-.menu a{
+#menu a{
   clear: right;
   margin: 0 10px;
   line-height: 70px;
 }
-header label{
-  display: none;
-}
-#toggle{
-  display:none;
-}
+
 
 /* BODY */
 small,.small,footer{font-size:0.8em;}
@@ -163,7 +167,6 @@ div.presentation_summary{margin-bottom:6em}
 .right{
   float:right;
 }
-
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -171,6 +174,8 @@ div.presentation_summary{margin-bottom:6em}
 #oneblog small{
   color: var(--title);
 }
+
+
 
 @media screen and (max-width: 800px){
   #masthead a, h1{
@@ -180,28 +185,32 @@ div.presentation_summary{margin-bottom:6em}
   img {
     display: block;
   }
-  header label {
+  #hamburger-button{
     display: block;
-    cursor: pointer;
   }
-  .menu {
+  #menu {
+    height: 0;
+    width: 100vw; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 70px; /* Stay at the top */
+    left: 0;
     text-align: center;
-    width: 100%;
-    display: none;
+    transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+    margin-top: 0; /* override standard margin top for desktop view*/
+    overflow-x: hidden;
   }
-  .menu a{
-    display:block;
-    border-bottom: 1px solid #EAEAEB;
-    margin: 0;
-  }
-  #toggle:checked + .menu {
+  #menu a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
     display: block;
-    position: fixed;
-    background-color: white;
-    top: 0;
+    transition: 0.3s;
+    margin: 0 auto;
+    border-bottom: .5px solid var(--title);
   }
-  div.presentation_summary img{
-    display:block;
-    float:right;
+  #menu a:hover{
+    color: #f1f1f1;
   }
 }

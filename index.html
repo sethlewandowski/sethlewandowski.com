@@ -17,15 +17,12 @@
 <body id="home">
   <header>
     <nav>
-      <label for="toggle">
-        <div class="hamburger-button">
-          <div class="hamburger-bar"></div>
-          <div class="hamburger-bar"></div>
-          <div class="hamburger-bar"></div>
-        </div>
-      </label>
-      <input type="checkbox" id="toggle"/>
-      <div class="menu">
+      <div id="hamburger-button" onClick="toggleNavigationMenu()">
+        <div id="hamburger-top-bun"></div>
+        <div id="hamburger-patty"></div>
+        <div id="hamburger-bottom-bun"></div>
+      </div>
+      <div id="menu">
         <a href="about">About</a>
         <a href="now">Now</a>
         <a href="words">Words</a>
@@ -143,5 +140,6 @@
       <p>Or on <a href="https://github.com/sethlewandowski">GitHub</a>.</p>
     </section>
   </main>
+  <script src="js/toggleNav.js"></script>
 </body>
 </html>

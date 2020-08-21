@@ -18,19 +18,16 @@
 <body id="projects">
   <header>
     <nav>
-      <label for="toggle">
-        <div class="hamburger-button">
-          <div class="hamburger-bar"></div>
-          <div class="hamburger-bar"></div>
-          <div class="hamburger-bar"></div>
-        </div>
-      </label>
-      <input type="checkbox" id="toggle"/>
-      <div class="menu">
-        <a href="../about">About</a>
-        <a href="../now">Now</a>
-        <a href="../words">Words</a>
-        <a href="../projects">Projects</a>
+      <div id="hamburger-button" onClick="toggleNavigationMenu()">
+        <div id="hamburger-top-bun"></div>
+        <div id="hamburger-patty"></div>
+        <div id="hamburger-bottom-bun"></div>
+      </div>
+      <div id="menu">
+        <a href="about">About</a>
+        <a href="now">Now</a>
+        <a href="words">Words</a>
+        <a href="projects">Projects</a>
       </div>
     </nav>
   </header>
@@ -56,5 +53,6 @@
       <li><a href="welcome">My first ever script!</a></li>
     </ul>
   </main>
+  <script src="js/toggleNav.js"></script>
 </body>
 </html>
