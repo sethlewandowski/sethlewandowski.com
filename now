@@ -15,7 +15,8 @@
 </head>
 
 <body>
-  <header>
+  <header id="navigation-bar">
+    <h1 id="masthead"><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
     <nav>
       <div id="hamburger-button" onClick="toggleNavigationMenu()">
         <div id="hamburger-top-bun"></div>
@@ -30,9 +31,6 @@
       </div>
     </nav>
   </header>
-  <section id="masthead">
-    <h1><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
-  </section>
   <main>
     <section>
       <h2>Now</h2>
