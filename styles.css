@@ -176,7 +176,9 @@ div.presentation_summary{margin-bottom:6em}
   color: var(--title);
 }
 
-
+.colored{
+  color: var(--title);
+}
 
 @media screen and (max-width: 800px){
   h1#masthead a {
