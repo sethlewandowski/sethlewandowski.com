@@ -5,7 +5,7 @@
   <title>Now - Seth Lewandowski</title>
   <meta name="description" content="Seth Lewandowski: What I'm up to right now.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <link rel="stylesheet" type="text/css" href="styles.css?v=1.2"/>
   <meta property="og:title" content="Seth Lewandowski">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://sethlewandowski.com/">

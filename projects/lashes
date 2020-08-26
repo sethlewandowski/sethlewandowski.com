@@ -6,7 +6,7 @@
     <title>Jordan Lee Lashes</title>
     <meta name="description" content="Jordan Lee Lashes site rebuild.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <link rel="stylesheet" type="text/css" href="../styles.css?v=1.2" />
     <meta property="og:title" content="Jordan Lee Lashes">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://sethlewandowski.com/projects/lashes">
