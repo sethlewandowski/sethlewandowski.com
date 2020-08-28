@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Learning - Seth Lewandowski</title>
+  <meta name="description" content="Seth Lewandowski: What I'm learning right now.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css?v=1.2"/>
+  <meta property="og:title" content="Seth Lewandowski">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethlewandowski.com/learning">
+  <meta property="og:image" content="https://sethlewandowski.com/images/seth_lewandowski.jpg">
+  <meta property="og:description" content="What I'm learning right now.">
+  <script src="https://cdn.usefathom.com/script.js" site="VLTYTXOE" defer></script>
+</head>
+
+<body>
+  <header id="navigation-bar">
+    <h1 id="masthead"><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+    <nav>
+      <div id="hamburger-button" onClick="toggleNavigationMenu()">
+        <div id="hamburger-top-bun"></div>
+        <div id="hamburger-patty"></div>
+        <div id="hamburger-bottom-bun"></div>
+      </div>
+      <div id="menu">
+        <a href="about">About</a>
+        <a href="now">Now</a>
+        <a href="words">Words</a>
+        <a href="projects">Projects</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h2>Learning</h2>
+    <p>I'm not sure how useful my college education was. Nor am I sure how much I'll push my kids to go to college.</p>
+    <p>I think there is far too much focus on "education" without much thought towards the science and skill of <strong>learning</strong>.</p>
+    <p>This is my Learning page if you're curious about what I'm learning lately. And if you're online, I'd encourage you to create a learning page as well. Education ends for all of us at some point, but that doesn't mean learning should.</p>
+
+    <dl>
+    <dt>August 2020</dt>
+    <dd>
+      <p>After being challenged a friend of mine, I decided to get a VPS and start self hosting everything. I decided to go with hostwinds and get an unmanaged vps for $4.99 a month.</p>
+      <p>I installed Ubuntu and got my hands dirty. I probably spent a full 30 hours configuring this baby and man I learned a lot. This experience got me familiar with Ubuntu, UFW, SSH, 
+    </dd>
+  </section>
+
+
+  </main>
+  <script src="js/toggleNav.js"></script>
+</body>
+</html>
