@@ -98,5 +98,6 @@ Meh.
 </h1>
 </footer>
 </article>
+<script src="../js/toggleNav.js"></script>
 </body>
 </html>

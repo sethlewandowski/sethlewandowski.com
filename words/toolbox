@@ -125,5 +125,6 @@ You're not showing up with <strong>an empty tool box</strong>.
 </footer>
 </article>
 </div>
+<script src="../js/toggleNav.js"></script>
 </body>
 </html>

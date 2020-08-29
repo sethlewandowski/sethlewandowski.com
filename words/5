@@ -89,5 +89,6 @@ I guess the real question is, what will you do with your 5 minutes today?
 </h1>
 </footer>
 </article>
+<script src="../js/toggleNav.js"></script>
 </body>
 </html>

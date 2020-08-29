@@ -7,7 +7,7 @@ function toggleNavigationMenu() {
   const background = document.getElementsByTagName('main')[0]; // get main part of document
 
   if (nav.style.height === ""){         // if nav is hidden
-  	nav.style.height = "375px";         // open drawer to stated size
+  	nav.style.height = "455px";         // open drawer to stated size
     background.style.opacity = ".3";    // and dim the background
   } else {                              // trigger if function is called and nav is already open 
   	nav.style.height = "";              // make drop down nav go away
