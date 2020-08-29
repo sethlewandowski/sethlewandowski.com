@@ -333,7 +333,6 @@ And damn I wish I read this article 5 years ago.
 </footer>
 </article>
 
-</div>
-ss<script src="../js/toggleNav.js"></script>
+</div><script src="../js/toggleNav.js"></script>
 </body>
 </html>
