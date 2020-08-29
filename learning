@@ -28,6 +28,7 @@
         <a href="now">Now</a>
         <a href="words">Words</a>
         <a href="projects">Projects</a>
+        <a href="learning">Learning</a>
       </div>
     </nav>
   </header>
@@ -37,10 +38,21 @@
     <p>I think there is far too much focus on "education" without much thought towards the science and skill of <strong>learning</strong>.</p>
     <p>This is my learning page if you're curious about what I've been learning lately. And if you're online, I'd encourage you to create a learning page as well. Education ends for all of us at some point, but that doesn't mean learning should.</p>
     <dl>
+      <dt>August 28, 2020</dt>
+      <dd>
+        <h3>Out with the Apache - In with the Nginx</h3>
+        <p>I first learned some Apache when I was hosting my websites on Bluehost shared hosting. I had to know Apache and specifically .htaccess configurations in order to route requests to the correct domain (was hosting multiple domains). So, I assumed I should just keep using Apache for my VPS web server but after reading quite a lot of how-to articles on hosting a node.js app on a vps, I decided to switch to Nginx.</p>
+        <p>The subtle irony here is I had an interview with Nginx 4 years ago and completely flunked it. I tried to do research and could not figure out what the company did or how to explain it. Funny now that I am a happy user.</p>
+      </dd>
+
+
+
+
       <dt>August 15, 2020</dt>
       <dd>
+        <h3>A move to self hosting (virutally)</h3>
         <p>After being challenged a friend of mine, I decided to get a VPS and start self hosting everything. I decided to go with hostwinds and get an unmanaged vps for $4.99 a month.</p>
-        <p>I installed Ubuntu and got my hands dirty. I probably spent a full 30 hours configuring this baby and, man, I learned a lot. This experience got me familiar with Ubuntu, UFW, SSH, Apache, and Nginx.</p>
+        <p>I installed Ubuntu and got my hands dirty. I probably spent a full 30 hours configuring this baby and, man, I learned a lot. This experience got me familiar with Ubuntu, UFW, SSH, and Apache.</p>
       </dd>
     </dl>
 

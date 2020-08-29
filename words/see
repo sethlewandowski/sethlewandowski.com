@@ -20,9 +20,23 @@ s<!DOCTYPE html>
 
 <body id="oneblog">
 
-<section id="masthead">
-<h1><a href="../" title="Seth Lewandowski">Seth Lewandowski</a></h1>
-</section>
+    <header id="navigation-bar">
+    <h1 id="masthead"><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
+    <nav>
+      <div id="hamburger-button" onClick="toggleNavigationMenu()">
+        <div id="hamburger-top-bun"></div>
+        <div id="hamburger-patty"></div>
+        <div id="hamburger-bottom-bun"></div>
+      </div>
+      <div id="menu">
+        <a href="../about">About</a>
+        <a href="../now">Now</a>
+        <a href="../words">Words</a>
+        <a href="../projects">Projects</a>
+        <a href="../learning">Learning</a>
+      </div>
+    </nav>
+  </header>
 
 <div id="content">
 

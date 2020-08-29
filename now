@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header id="navigation-bar">
+<header id="navigation-bar">
     <h1 id="masthead"><a href="/" title="Seth Lewandowski">Seth Lewandowski</a></h1>
     <nav>
       <div id="hamburger-button" onClick="toggleNavigationMenu()">
@@ -28,6 +28,7 @@
         <a href="now">Now</a>
         <a href="words">Words</a>
         <a href="projects">Projects</a>
+        <a href="learning">Learning</a>
       </div>
     </nav>
   </header>
