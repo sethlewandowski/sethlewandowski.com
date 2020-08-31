@@ -38,6 +38,19 @@
     <p>I think there is far too much focus on "education" without much thought towards the science and skill of <strong>learning</strong>.</p>
     <p>This is my learning page if you're curious about what I've been learning lately. And if you're online, I'd encourage you to create a learning page as well. Education ends for all of us at some point, but that doesn't mean learning should.</p>
     <dl>
+
+      <dt>August 31, 2020</dt>
+      <dd>
+        <h3>Out with the Node - In with the PHP</h3>
+        <p>I swore that I would never touch PHP. When I started to learn how to code, I promised myself I would stay as focused as possible on as few languages/frameworks/technologies as possible.</p>
+        <p>But, I realized this past weekend that using technology that works and let's you move faster isn't something to be ashamed of.</p>
+        <p>I used to think that using CMS's was like buying your fish from a supermarket in a bass fishing competition. But it turns out, the longer I'm in this industry, the more I realize how nice it is to use something that just works and makes life easy.</p>
+        <p>Could I have written a blog site from the ground up using node.js, express, ejs and front end languages? Sure.<br>
+          Is it worth all that time and effort when I could use a free existing CMS and host it myself? No. Ultimately I decided it was not.</p>
+        <p>So this past weekend, I completely changed my mind on building a clients blog on node and instead turned to the LEMP stack. Configuration was... a bit tricky. But honestly all in all it was considerably less time than I thought it was going to take.</p>
+
+
+
       <dt>August 28, 2020</dt>
       <dd>
         <h3>Out with the Apache - In with the Nginx</h3>
