@@ -1,0 +1,246 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+            .game-container{
+          width: 500px;
+          height: 730px;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        body{
+          display: flex;
+        }
+        .sky{
+          background-color: blue;
+          width: 500px;
+          height: 580px;
+          position: absolute;
+        }
+        .ground {
+          background-color: brown;
+          width: 500px;
+          height: 150px;
+          position: absolute;
+          z-index: 1;
+        }
+        .bird{
+          background-image: url('bird.png');
+          position: absolute;
+          height: 60px;
+          width: 60px;
+        }
+        .dead{
+          background-image: url('dead.png');
+        }
+        .bottomObstacle{
+          background-image: url('pipe.png');
+          width: 10vw;
+          height: 40vh;
+          position: absolute;
+        }
+        .topObstacle{
+          background-image: url('../images/pipe.png');
+          transform: rotate(180deg);
+          width: 10vw;
+          height: 40vh;
+          position: absolute;
+        }
+
+      @media screen and (max-width: 800px){ 
+          .game-container{
+          width: 100vw;
+          height: 100vh;
+          position: absolute;
+          }
+        body{
+          display: flex;
+        }
+        .sky{
+          background-color: blue;
+          width: 100vw;
+          height: 80vh;
+          position: absolute;
+        }
+        .ground {
+          background-color: brown;
+          width: 100vw;
+          height: 20vh;
+          position: absolute;
+          bottom: 0;
+          z-index: 1;
+        }
+        .bird{
+          background-image: url('../images/bird.png');
+          position: absolute;
+          height: 40px;
+          width: 40px;
+        }
+
+        .bottomObstacle{
+          background-image: url('../images/pipe.png');
+          width: 12vw;
+          height: 40vh;
+          position: absolute;
+          background-repeat: no-repeat;
+        }
+        .topObstacle{
+          background-image: url('../images/pipe.png');
+          transform: rotate(180deg);
+          width: 12vw;
+          height: 40vh;
+          position: absolute;
+          background-repeat: no-repeat;
+        }
+        .score-board{
+          margin: 0 auto;
+          margin-top: 20px;
+          background-color: white;
+          font-size: 16px;
+          width: 20vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .start-over{
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          padding-top: 10px;
+        }
+      }
+
+    </style>
+  <script>
+        document.addEventListener('DOMContentLoaded', () => {
+      const bird = document.querySelector('.bird');
+      const gameDisplay = document.querySelector('.game-container');
+      const ground = document.querySelector('.ground');
+      const scoreCount = document.querySelector('.score');
+      const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+      const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+      let birdLeft = vw * .1;
+      let birdBottom = vh * .5;
+      let birdTop = birdBottom + 40; // get top of bird for intersection with upper obstacle
+      let obstacleHeight = vh * .4; // as stated in css
+      let gravity = 1.5; // speed that bird falls 
+      let isGameOver = false;
+      let groundHeight = vh * .2;
+      let score = -1;
+      console.log(`screen width: ${vw} and screen height: ${vh}`)
+
+      document.addEventListener('click', jump);
+      document.addEventListener('touchstart', jump); //listen for keyup then call jump
+
+      let gameTimerId = setInterval(startGame, 20); // run every 20 miliseconds
+
+      function startGame(){
+        birdBottom -= gravity; 
+        bird.style.bottom = birdBottom + 'px';
+        bird.style.left = birdLeft + 'px';
+      } 
+      
+      function jump() {
+        if (birdBottom < vh - 40) {
+          birdBottom += 40;
+          bird.style.bottom = birdBottom + 'px';
+        }
+      }
+      function addPoint() {
+        score += 1;
+        scoreCount.innerHTML = score;
+      }
+
+      function generateObstacle(){
+        let gap = (.25*vh) + (Math.random() * 100); // distance between upper and lower obstacle
+        let obstacleLeft = vw; // start obstacle at right edge of container
+        let obstacleBottom = (Math.random() * 100); // give it a random height
+        
+        const bottomObstacle = document.createElement('div');
+        const topObstacle = document.createElement('div');
+        
+        if (!isGameOver){
+          bottomObstacle.classList.add('bottomObstacle');
+          topObstacle.classList.add('topObstacle');
+        } 
+        gameDisplay.appendChild(bottomObstacle); 
+        gameDisplay.appendChild(topObstacle);
+
+        bottomObstacle.style.left = obstacleLeft + 'px'; // start off screen to right
+        topObstacle.style.left = obstacleLeft + 'px'; // start off screen to right
+        bottomObstacle.style.bottom = obstacleBottom + 'px'; //start at bottom of screen
+        topObstacle.style.bottom = obstacleHeight + gap + 'px'; // start at top of screen
+
+
+        function moveObstacle() {
+          obstacleLeft -=2;
+          bottomObstacle.style.left = obstacleLeft + 'px';
+          topObstacle.style.left = obstacleLeft + 'px';
+
+          // if obstacle is off the screen, remove it
+          if (obstacleLeft < 0){
+            clearInterval(gameTimerId);
+            gameDisplay.removeChild(bottomObstacle);
+            gameDisplay.removeChild(topObstacle);
+          } 
+
+          // 
+          if (birdBottom < 0 || // hits the ground OR
+
+            (obstacleLeft  < birdLeft + 40
+              && 
+            (birdBottom < (obstacleBottom + obstacleHeight - groundHeight)))
+            ||
+
+            (obstacleLeft < birdLeft + 40 &&
+              (birdBottom + 60 > (obstacleBottom + obstacleHeight + gap - groundHeight))
+            )) {
+            gameOver();
+            clearInterval(gameTimerId);
+          }
+        }
+        let gameTimerId = setInterval(moveObstacle, 15); 
+        
+        if (!isGameOver) {
+          addPoint();
+          setTimeout(generateObstacle, 2000);
+        }
+          // create a new obstacle every 3 seconds
+      }
+
+      generateObstacle();
+
+      function gameOver() {
+        clearInterval(gameTimerId);
+        console.log(`game over. birdbottom was ${birdBottom}`)
+        isGameOver = true;
+        document.removeEventListener('touchstart', jump);
+        document.removeEventListener('click', jump);
+      }
+    })
+</script>
+  <title>Flappy Bird</title>
+</head>
+
+
+<body>
+  <div class="border-left"></div>
+  <div class="game-container">
+    <div class="border-top"></div>
+    <div class="sky">
+      <div class="bird"></div>
+    </div>
+    <div class="ground">
+      <div class="score-board">
+        <p>Score: </p>
+        <div class='score'></div>
+      </div>
+      <div class="start-over"><button onClick="window.location.reload();">Start Over</button></div>
+    </div>
+    <div class="border-right"></div>
+  </div>
+
+</body>
+</html>
